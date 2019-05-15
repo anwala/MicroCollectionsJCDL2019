@@ -8,12 +8,12 @@ Code and data associated with: [ACM/IEEE-CS Joint Conference on Digital Librarie
 * cdSegmentCols.py: Performs [carbondating](http://cd.cs.odu.edu/) (creation date estimation) of links.
 * [genericCommon.py](https://github.com/anwala/Util): consists of utility functions used by all previously described scripts.
 ## Brief description of [Data](./Data)
-In the dataset, the post classes were SS, MS, SM, and MM. In the paper, we used $\text{P}_1(N) = \sum_{p=1}^N \text{E}(p)$ $P_1A_1$, $$P_nA_1$$, $$P_1A_n$$, and $$P_nA_n$$:
-* Single Post, Single Author = SS = $$P_1A_1$$
-* Single Post, Single Author = MS = $$P_nA_1$$
-* Single Post, Single Author = SM = $$P_1A_n$$
-* Single Post, Single Author = MM = $$P_nA_n$$
-* MC (Micro-Collections) = $$P_nA_1 \cup P_1A_n\cup P_nA_n$$
+In the dataset, the post classes were SS, MS, SM, and MM. In the paper, we used P_1A_1, P_nA_1, P_1A_n, and P_nA_n:
+* Single Post, Single Author = SS = P_1A_1
+* Single Post, Single Author = MS = P_nA_1
+* Single Post, Single Author = SM = P_1A_n
+* Single Post, Single Author = MM = P_nA_n
+* MC (Micro-Collections) = P_nA_1 ∪ P_1A_n ∪ P_nA_n
 
 The dataset topics:
 1. Ebola Virus Outbreak
@@ -31,7 +31,7 @@ Collection of URIs were labeled with one of the four post post class labels.
         - **ss or sm or ms or mm or mc**: post classes (array[objects])
             - (object) 
                 - **timestamp**: datetime when URIs were extracted (string)
-                - **sim-coeff**: if predicted-precision $$\geq$$ sim-coeff, uris are labeled relevant (float)
+                - **sim-coeff**: if predicted-precision ≥ sim-coeff, uris are labeled relevant (float)
                 - **predicted-precision**: precision score of uris (float)
                 - **uris**: collection of uris extracted from social media sources  (array[object])
                     - (object)

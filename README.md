@@ -8,7 +8,7 @@ Code and data associated with: [ACM/IEEE-CS Joint Conference on Digital Librarie
 * cdSegmentCols.py: Performs [carbondating](http://cd.cs.odu.edu/) (creation date estimation) of links.
 * [genericCommon.py](https://github.com/anwala/Util): consists of utility functions used by all previously described scripts.
 ## Brief description of [Data](./Data)
-In the dataset, the post classes were SS, MS, SM, and MM. In the paper, we used $P_1A_1$, $$P_nA_1$$, $$P_1A_n$$, and $$P_nA_n$$:
+In the dataset, the post classes were SS, MS, SM, and MM. In the paper, we used $\text{P}_1(N) = \sum_{p=1}^N \text{E}(p)$ $P_1A_1$, $$P_nA_1$$, $$P_1A_n$$, and $$P_nA_n$$:
 * Single Post, Single Author = SS = $$P_1A_1$$
 * Single Post, Single Author = MS = $$P_nA_1$$
 * Single Post, Single Author = SM = $$P_1A_n$$

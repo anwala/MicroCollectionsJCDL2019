@@ -1,5 +1,5 @@
 # Using Micro-collections in Social Media to Generate Seeds for Web Archive Collections
-Code and data associated with: [ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL 2019) full paper]() and [tech report]().
+Code and data associated with: [ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL 2019) full paper]() and [tech report](https://arxiv.org/abs/1905.12220).
 
 ## Brief description of [Code](./Code)
 * MicroCols.py: Generates collections of URIs from the different social media sites.
